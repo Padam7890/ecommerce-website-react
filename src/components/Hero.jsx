@@ -2,6 +2,7 @@ import React from "react";
 import firstbanner from "../assets/img/firstbanner.png";
 import secondbanner from "../assets/img/second.png";
 import thirdbanner from "../assets/img/third.png";
+import Button from "./smallComponents/Button";
 const Hero = () => {
   return (
     <div className="hero_section mt-9">
@@ -33,10 +34,7 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-            <div className="btn cursor-pointer gap-4 bg-white font-semibold text-[#00B207] rounded-full  w-[191px] h-[51px] flex items-center justify-center  ">
-              <p> Shop Now</p>
-              <i className="ri-arrow-right-s-line"></i>
-            </div>
+            <Button title={"Shop Now"} />
           </div>
         </div>
 
@@ -69,17 +67,18 @@ const Hero = () => {
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                
               }}
               className="top-banner rounded-lg object-cover w-[423px] text-center h-[288px] flex items-center justify-center"
             >
               <div className=" flex flex-col gap-4 text-center ">
                 <div className=" text-white ">
                   <p className="  text-sm font-medium">BEST DEAL</p>
-                  <h3 className=" text-3xl max-w-[300px] font-semibold mt-2 leading-[120%">Special Products Deal of the Month</h3>
+                  <h3 className=" text-3xl max-w-[300px] font-semibold mt-2 leading-[120%">
+                    Special Products Deal of the Month
+                  </h3>
                 </div>
 
-                <div className =" text-[#00B207] text-base font-semibold flex gap-3 items-center justify-center ">
+                <div className=" text-[#00B207] text-base font-semibold flex gap-3 items-center justify-center ">
                   <p>Shop Now</p>
                   <i className="ri-arrow-right-s-line"></i>
                 </div>

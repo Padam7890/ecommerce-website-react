@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import Info from '../components/Info'
 import PopularCategory from '../components/PopularCategory'
 import PopularProducts from '../components/PopularProducts'
+import Custombanners from '../components/CustomBanner'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
     <Info/>
     <PopularCategory/>
     <PopularProducts/>
+    <Custombanners/>
 
     </div>
   )
